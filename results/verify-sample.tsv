@@ -1,0 +1,201 @@
+repo	file	line	ref	last_commit_touching_path	verdict
+oven-sh/bun	scripts/build/CLAUDE.md	138	aot/builtins/generator/		no history at that path
+claude-code-best/claude-code	CLAUDE.md	280	packages/cc-knowledge/		no history at that path
+RocketChat/Rocket.Chat	ee/packages/xmpp-server/CLAUDE.md	48	src/service/events/		no history at that path
+homebridge/homebridge	CLAUDE.md	43	./logger.js		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/te/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/ja/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+docmirror/dev-sidecar	.github/copilot-instructions.md	36	packages/mitmproxy/src/index.js	2026-10-03	existed (moved/deleted)
+anomalyco/opencode	packages/core/src/tool/AGENTS.md	70	content/projects/opencode/model-tools.md		no history at that path
+srbhr/Resume-Matcher	.claude/CLAUDE.md	103	../docs/agent/coding-standards.md	2026-10-11	existed (moved/deleted)
+appwrite/appwrite	apps/console/AGENTS.md	959	segment/View.tsx		no history at that path
+telegramdesktop/tdesktop	Telegram/SourceFiles/AGENTS.md	17	base/platform/		no history at that path
+modular/modular	max/AGENTS.md	228	docs/internal/CompileOnCpuRunOnGpu.md		no history at that path
+Infisical/infisical	backend/src/domains/platform/license/AGENTS.md	104	.github/workflows/run-backend-bdd-tests.yml		no history at that path
+Infisical/infisical	backend/AGENTS.md	595	infisical-shared-cloud/modules/redis_alarms/main.tf		no history at that path
+agent0ai/agent-zero	plugins/_goal/AGENTS.md	11	usr/plugins/_goal/goals/		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/hi/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/no/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+rocketride-org/rocketride-server	AGENTS.md	83	packages/client-typescript/docs/reference/		no history at that path
+ueberdosis/tiptap	AGENTS.md	193	references/README.md		no history at that path
+NousResearch/hermes-agent	skills/AGENTS.md	8	skills/github/	2026-08-30	existed (moved/deleted)
+srbhr/Resume-Matcher	apps/backend/CLAUDE.md	167	features/postgres-backend.md		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/bs/AGENTS.md	3	../sl/AGENTS.md		no history at that path
+microsoft/Data-Science-For-Beginners	translations/zh-CN/AGENTS.md	287	.github/workflows/co-op-translator.yml		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/hy/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+microsoft/generative-ai-for-beginners	translations/bg/AGENTS.md	163	../../url		no history at that path
+team-spotube/spotube	AGENTS.md	31	src/protocol.ts		no history at that path
+iii-hq/iii	AGENTS.md	272	website/src/content/blog/	2026-10-08	existed (moved/deleted)
+Donchitos/Claude-Code-Game-Studios	design/CLAUDE.md	5	design/gdd/		no history at that path
+CopilotKit/CopilotKit	.cursor/rules/frontend-development.mdc	149	docs/components.json	2026-06-18	existed (moved/deleted)
+modular/modular	max/python/docs/AGENTS.md	135	docs/internal/PythonDocstringStyleGuide.md		no history at that path
+microsoft/ML-For-Beginners	translations/hr/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+CopilotKit/CopilotKit	.cursor/rules/agent-development.mdc	37	agent/index.js		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/ga/CLAUDE.md	44	docs/research/	2026-06-29	existed (moved/deleted)
+microsoft/ML-For-Beginners	translations/es/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+agent0ai/agent-zero	plugins/_agent_editor/AGENTS.md	38	.a0proj/agents.json		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-senpi/src/components/memory/kibitzer/AGENTS.md	47	core/sensitive-output.js		no history at that path
+cjpais/Handy	AGENTS.md	93	lib/types.ts		no history at that path
+microsoft/ML-For-Beginners	translations/zh-TW/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+microsoft/ML-For-Beginners	translations/lt/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+vercel-labs/agent-desktop	apps/docs/AGENTS.md	39	app/api/search/route.ts		no history at that path
+gitbutlerapp/gitbutler	crates/but/skill/AGENTS.md	6	references/reference.md	2026-10-26	existed (moved/deleted)
+Kilo-Org/kilocode	packages/kilo-vscode/AGENTS.md	174	.kilo/agent-manager.json		no history at that path
+microsoft/generative-ai-for-beginners	translations/ko/AGENTS.md	163	../../url		no history at that path
+spacedriveapp/spacedrive	core/AGENTS.md	81	core/src/ops/registry.rs	2026-08-21	existed (moved/deleted)
+cline/cline	.github/copilot-instructions.md	37	src/core/prompts/system-prompt/tools/init.ts	2026-05-25	existed (moved/deleted)
+code-yeongyu/oh-my-openagent	packages/omo-senpi/src/components/memory/AGENTS.md	103	runtime/reflection/park.json		no history at that path
+angular/angular	packages/compiler-cli/preprocessor/AGENTS.md	18	./models		no history at that path
+srbhr/Resume-Matcher	apps/backend/CLAUDE.md	141	../../docs/agent/llm-integration.md	2026-10-11	existed (moved/deleted)
+hasura/graphql-engine	frontend/apps/console-ce-e2e/AGENTS.md	45	.buildkite/scripts/frontend/test-oss-console.sh		no history at that path
+medusajs/medusa	packages/eslint-plugin/AGENTS.md	49	src/jobs/_utils.ts		no history at that path
+zed-industries/zed	AGENTS.md	164	.factory/prompts/crash/fix.md	2026-10-23	existed (moved/deleted)
+code-yeongyu/oh-my-openagent	packages/boulder-state/AGENTS.md	27	plugin/components/ulw-execute-continuation/boulder-reader.ts		no history at that path
+storytold/artcraft	AGENTS.md	4	standards/app-agents.md		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/bs/AGENTS.md	3	../my/AGENTS.md		no history at that path
+alirezarezvani/claude-skills	engineering-team/CLAUDE.md	153	senior-ml-engineer/scripts/llm_integration_builder.py		no history at that path
+TriliumNext/Trilium	CLAUDE.md	328	apps/server/src/services/llm/tools/	2026-08-10	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/ml/CLAUDE.md	44	docs/research/	2026-06-29	existed (moved/deleted)
+k1tbyte/Wand-Enhancer	CLAUDE.md	18	Core/EnhancerConfig.cs		no history at that path
+apache/superset	.claude/projects/js-to-ts/AGENT.md	512	.ts/.tsx		no history at that path
+clockworklabs/SpacetimeDB	tools/llm-sequential-upgrade/CLAUDE.md	43	../llm-oneshot/apps/chat-app/staging/		no history at that path
+microsoft/generative-ai-for-beginners	translations/fa/AGENTS.md	163	../../url		no history at that path
+oven-sh/bun	scripts/build/CLAUDE.md	136	aot/Sources.txt		no history at that path
+code-yeongyu/oh-my-openagent	packages/memory-core/AGENTS.md	23	system/agreements.md		no history at that path
+CopilotKit/CopilotKit	examples/showcases/mcp-apps/CLAUDE.md	49	src/workout-logic.ts		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-opencode/src/tools/look-at/AGENTS.md	47	src/agents/builtin-agents/multimodal-looker.ts		no history at that path
+microsoft/ML-For-Beginners	translations/tl/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/de/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+hashcat/hashcat	AGENTS.md	68	tools/test_modules/mXXXXX.py		no history at that path
+alirezarezvani/claude-skills	engineering-team/self-improving-agent/CLAUDE.md	65	.claude-plugin/hooks.json		no history at that path
+vercel/next.js	AGENTS.md	528	docs/README.md		no history at that path
+oven-sh/bun	scripts/build/CLAUDE.md	136	aot/SourcesCompiledForMinimumSize.txt		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/ar/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+sickn33/agentic-awesome-skills	skills/loki-mode/CLAUDE.md	65	.loki/metrics/rewards/		no history at that path
+CopilotKit/CopilotKit	examples/showcases/mcp-apps/CLAUDE.md	50	src/recipes.ts		no history at that path
+microsoft/generative-ai-for-beginners	translations/ne/AGENTS.md	163	../../url		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-senpi/src/components/memory/kibitzer/AGENTS.md	11	./events		no history at that path
+grafana/grafana	AGENTS.md	62	go test -run TestName ./pkg/services/myservice/		no history at that path
+oven-sh/bun	scripts/build/CLAUDE.md	138	aot/builtins/host-roles.builtins.ts		no history at that path
+srbhr/Resume-Matcher	apps/backend/CLAUDE.md	161	../../docs/agent/coding-standards.md	2026-10-11	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/hu/CLAUDE.md	47	docs/research/	2026-06-29	existed (moved/deleted)
+handsontable/handsontable	tests/AGENTS.md	996	test-health/durations.json		no history at that path
+Yeachan-Heo/oh-my-claudecode	src/features/AGENTS.md	84	.omc/state/boulder.json		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/ms/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+handsontable/handsontable	handsontable/src/plugins/exportFile/AGENTS.md	234	lib/doc/worksheet.js		no history at that path
+microsoft/Data-Science-For-Beginners	translations/he/AGENTS.md	287	.github/workflows/co-op-translator.yml		no history at that path
+grafana/loki	pkg/logline/AGENTS.md	66	pkg/logline/internal/vN/ngrams.go		no history at that path
+ant-design/ant-design-pro	CLAUDE.md	31	src/models/	2021-07-01	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/es/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+srbhr/Resume-Matcher	apps/frontend/CLAUDE.md	135	../../docs/portable/swiss-design-system/tokens.md	2026-10-11	existed (moved/deleted)
+handsontable/handsontable	handsontable/src/3rdparty/walkontable/AGENTS.md	2346	path/to/file.ts		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/fa/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+promptfoo/promptfoo	src/app/AGENTS.md	107	src/app/src/store/	2026-10-10	existed (moved/deleted)
+microsoft/Data-Science-For-Beginners	translations/bn/AGENTS.md	287	.github/workflows/co-op-translator.yml		no history at that path
+oven-sh/bun	src/format/CLAUDE.md	40	formatter/trivia.rs		no history at that path
+microsoft/generative-ai-for-beginners	translations/kn/AGENTS.md	163	../../url		no history at that path
+docmirror/dev-sidecar	AGENTS.md	85	src/lib/proxy/tls/		no history at that path
+grafana/k6	AGENTS.md	33	go test ./internal/js/modules/k6/http/		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/uk-UA/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+solidjs/solid	.cursor/rules/solid-core.mdc	17	client/hydration.js		no history at that path
+gohugoio/hugo	AGENTS.md	13	layouts/_default/single.html		no history at that path
+surrealdb/surrealdb	surrealdb/core/src/exec/CLAUDE.md	14	vm/match_plan.rs	2026-10-13	existed (moved/deleted)
+moeru-ai/airi	AGENTS.md	37	packages/stage-ui/src/components/misc/Button.story.vue	2026-01-07	existed (moved/deleted)
+strapi/strapi	AGENTS.md	63	packages/core/content-manager/server/src/content-types/		no history at that path
+microsoft/Data-Science-For-Beginners	translations/et/AGENTS.md	287	.github/workflows/co-op-translator.yml		no history at that path
+code-yeongyu/oh-my-openagent	packages/boulder-state/AGENTS.md	37	!/rules/		no history at that path
+docker-mailserver/docker-mailserver	AGENTS.md	69	test/tests/parallel/setN/		no history at that path
+screenpipe/screenpipe	AGENTS.md	115	beta/latest.json		no history at that path
+pytorch/pytorch	torch/_dynamo/CLAUDE.md	186	TORCH_LOGS="graph_code" python script.py		no history at that path
+charmbracelet/crush	AGENTS.md	106	go test ./internal/llm/prompt -run TestGetContextFromPaths		no history at that path
+VoltAgent/awesome-claude-code-subagents	CLAUDE.md	62	path/to/agent.md		no history at that path
+claude-code-best/claude-code	CLAUDE.md	143	src/ink/	2026-04-07	existed (moved/deleted)
+envoyproxy/envoy	compat/openssl/AGENTS.md	36	source/ossl.c		no history at that path
+medusajs/medusa	packages/admin/dashboard/AGENTS.md	97	src/lib/currencies.ts		no history at that path
+CopilotKit/CopilotKit	AGENTS.md	31	docs/content/docs/	2026-06-18	existed (moved/deleted)
+tinyhumansai/openhuman	AGENTS.md	185	tests/json_rpc_e2e.rs	2026-10-19	existed (moved/deleted)
+activepieces/activepieces	packages/server/AGENTS.md	65	brain/engineering/server-module-anatomy.md	2026-08-15	existed (moved/deleted)
+code-yeongyu/oh-my-openagent	packages/prompts-core/AGENTS.md	39	./prompt-presets		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-senpi/src/components/thread/AGENTS.md	3	packages/coding-agent/src/modes/rpc/		no history at that path
+tiann/KernelSU	AGENTS.md	35	kernel/ksu.c	2026-03-27	existed (moved/deleted)
+microsoft/generative-ai-for-beginners	translations/sr/AGENTS.md	163	../../url		no history at that path
+slopus/happy	packages/happy-ios/AGENTS.md	823	src/session.ts		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/zh-TW/CLAUDE.md	39	docs/research/	2026-06-29	existed (moved/deleted)
+srbhr/Resume-Matcher	apps/backend/CLAUDE.md	159	../../docs/agent/architecture/prompt-workflow-design.md	2026-10-11	existed (moved/deleted)
+CherryHQ/cherry-studio	packages/provider-registry/CLAUDE.md	48	compat/vN-validator.mjs		no history at that path
+PostHog/posthog	posthog/admin/console/AGENTS.md	43	api-token/set/		no history at that path
+solidjs/solid	.cursor/rules/signals.mdc	12	src/store/next/		no history at that path
+oven-sh/bun	scripts/build/CLAUDE.md	176	rust/plan.json		no history at that path
+hasura/graphql-engine	frontend/apps/console-ce-e2e/AGENTS.md	95	docker/e2e/docker-compose.yml		no history at that path
+mui/material-ui	skills/material-ui-tailwind/AGENTS.md	49	src/app/global.css		no history at that path
+CopilotKit/CopilotKit	.cursor/rules/frontend-development.mdc	112	docs/components/ui/	2026-06-18	existed (moved/deleted)
+microsoft/generative-ai-for-beginners	translations/fi/AGENTS.md	163	../../url		no history at that path
+Egonex-AI/Understand-Anything	CLAUDE.md	50	./search		no history at that path
+gohugoio/hugo	AGENTS.md	13	layouts/_default/list.html		no history at that path
+refactoringhq/tolaria	AGENTS.md	315	scripts/strip-frontmatter.mjs		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/bs/AGENTS.md	3	../el/AGENTS.md		no history at that path
+rowboatlabs/rowboat	apps/harbor/AGENTS.md	41	test/fake-typesafe.ts		no history at that path
+claude-code-best/claude-code	AGENTS.md	165	packages/langfuse-dashboard/		no history at that path
+vercel/ai	AGENTS.md	101	src/stream-text/openai.ts		no history at that path
+hasura/graphql-engine	frontend/libs/metadata/helpers/AGENTS.md	174	table/table.test.ts		no history at that path
+oven-sh/bun	scripts/build/CLAUDE.md	138	aot/support/AOTVector.h		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-senpi/plugin/scripts/AGENTS.md	14	plugin/skills/		no history at that path
+CopilotKit/CopilotKit	examples/integrations/langgraph-python/CLAUDE.md	167	src/components/canvas/index.tsx		no history at that path
+storytold/craft-anything	AGENTS.md	4	standards/app-agents.md		no history at that path
+sickn33/agentic-awesome-skills	plugins/agentic-awesome-skills-claude/skills/loki-mode/CLAUDE.md	61	.loki/memory/skills/		no history at that path
+ChromeDevTools/chrome-devtools-mcp	AGENTS.md	114	src/third_party/browser.js		no history at that path
+tusen-ai/naive-ui	AGENTS.md	78	src/Component.tsx		no history at that path
+handsontable/handsontable	tests/AGENTS.md	95	src/styles/handsontableStyles.js		no history at that path
+pbakaus/impeccable	CLAUDE.md	91	docs/WORLD-CATALOG-AUTHORING.md		no history at that path
+Kong/insomnia	AGENTS.md	92	src/main/preload.ts		no history at that path
+claude-code-best/claude-code	CLAUDE.md	306	settings/settings.js		no history at that path
+code-yeongyu/oh-my-openagent	packages/lsp-core/AGENTS.md	38	./request-context		no history at that path
+linkwarden/linkwarden	AGENTS.md	124	apps/website/content/blog/		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/si/CLAUDE.md	49	docs/research/	2026-06-29	existed (moved/deleted)
+Yeachan-Heo/oh-my-claudecode	src/hooks/AGENTS.md	259	.omc/state/ralph-state.json		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/sr/CLAUDE.md	49	docs/research/	2026-06-29	existed (moved/deleted)
+appwrite/appwrite	apps/console/AGENTS.md	951	service/View.tsx		no history at that path
+prisma/orm	AGENTS.md	98	docs/architecture%20docs/patterns/json-canonical-class-in-memory.md		no history at that path
+alirezarezvani/claude-skills	engineering-team/CLAUDE.md	148	senior-ml-engineer/scripts/mlops_setup_tool.py		no history at that path
+sickn33/agentic-awesome-skills	skills/loki-mode/CLAUDE.md	60	.loki/memory/semantic/		no history at that path
+cline/cline	.github/copilot-instructions.md	50	src/core/slash-commands/index.ts	2026-05-25	existed (moved/deleted)
+dataelement/dsh-desktop	src/main/recovery/AGENTS.md	6	DSH_HOME/fatal-report.json		no history at that path
+paperclipai/paperclip	packages/plugins/plugin-llm-wiki/templates/AGENTS.md	29	wiki/papers/		no history at that path
+srbhr/Resume-Matcher	.claude/CLAUDE.md	124	../docs/agent/features/postgres-backend.md		no history at that path
+eternity4719/HowToLiveBetter	CLAUDE.md	109	references/book/		no history at that path
+slopus/happy	packages/happy-ios/AGENTS.md	773	Core/Observation/		no history at that path
+virattt/dexter	AGENTS.md	10	src/cli.tsx	2026-02-18	existed (moved/deleted)
+modular/modular	max/python/docs/AGENTS.md	142	oss/modular/pyproject.toml		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/et/CLAUDE.md	52	docs/research/	2026-06-29	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/bs/AGENTS.md	3	../ta/AGENTS.md		no history at that path
+meta/astryx	AGENTS.md	73	themes/manifest.json		no history at that path
+code-yeongyu/oh-my-openagent	packages/omo-senpi/plugin/AGENTS.md	23	.pi/lsp-client.json		no history at that path
+deepseek-ai/deepseek-harness	website/AGENTS.md	9	website/api/		no history at that path
+slopus/happy	packages/happy-android/AGENTS.md	2414	noBackupFilesDir/tailcat/derpmap.json		no history at that path
+microsoft/generative-ai-for-beginners	translations/el/AGENTS.md	163	../../url		no history at that path
+PostHog/posthog	products/signals/backend/scout_harness/AGENTS.md	96	../report_check_authoring.create_check		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/ur/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/km/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+alibaba/page-agent	AGENTS.md	95	src/config/	2025-12-01	existed (moved/deleted)
+microsoft/ML-For-Beginners	translations/fi/AGENTS.md	207	.github/workflows/co-op-translator.yml		no history at that path
+Molunerfinn/PicGo	AGENTS.md	31	src/renderer/store/gallery/store/store.ts		no history at that path
+surrealdb/surrealdb	surrealism/CLAUDE.md	60	surrealism/exports.toml		no history at that path
+srbhr/Resume-Matcher	apps/backend/CLAUDE.md	160	apis/front-end-apis.md		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/mt/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+sxyazi/yazi	AGENTS.md	16	core/core.rs		no history at that path
+Donchitos/Claude-Code-Game-Studios	design/CLAUDE.md	20	design/game-brief.md		no history at that path
+alirezarezvani/claude-skills	engineering-team/playwright-pro/CLAUDE.md	51	skills/review/anti-patterns.md	2026-08-21	existed (moved/deleted)
+pingdotgg/t3code	.repos/alchemy-effect/AGENTS.md	915	submodules/distilled/packages/aws/scripts/spec-schema.ts		no history at that path
+actualbudget/actual	AGENTS.md	274	skills/impeccable/		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/mr/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+alirezarezvani/claude-skills	engineering-team/CLAUDE.md	96	senior-fullstack/scripts/fullstack_scaffolder.py	2026-01-30	existed (moved/deleted)
+Infisical/infisical	backend/src/domains/platform/license/AGENTS.md	101	./default-features		no history at that path
+expo/expo	packages/expo-modules-jsi/AGENTS.md	118	../../guides/Swift%20Style%20Guide.md		no history at that path
+slopus/happy	packages/happy-android/AGENTS.md	97	sources/theme.ts	2026-01-20	existed (moved/deleted)
+cheaper-inference/OmniRoute	docs/i18n/ro/GEMINI.md	10	scripts/scratch/	2026-05-13	existed (moved/deleted)
+goauthentik/authentik	web/AGENTS.md	137	src/locales/	2025-11-18	existed (moved/deleted)
+prisma/orm	AGENTS.md	98	docs/architecture%20docs/patterns/frozen-class-ast.md		no history at that path
+cheaper-inference/OmniRoute	docs/i18n/fr/CLAUDE.md	50	docs/research/	2026-06-29	existed (moved/deleted)
+bytedance/deer-flow	backend/packages/harness/deerflow/extensions/AGENTS.md	52	backend/extensions/sources/		no history at that path
+srbhr/Resume-Matcher	apps/frontend/CLAUDE.md	226	../../docs/agent/testing-strategy.md	2026-10-11	existed (moved/deleted)
+storytold/wordcraft	AGENTS.md	4	standards/app-agents.md		no history at that path
