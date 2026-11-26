@@ -274,7 +274,7 @@ func (c *checker) pathRef(line int, s string, isLink bool) {
 		}
 		return
 	}
-	if c.pathExists(s, "") {
+	if c.pathExists(s, "") || c.writtenByScript(s) {
 		return
 	}
 	c.add(line, "missing-path", Error, "no such file or directory anywhere in the repository", s)
@@ -655,4 +655,67 @@ func keys(m map[string]any, max int) string {
 		return strings.Join(ks[:max], ", ") + ", …"
 	}
 	return strings.Join(ks, ", ")
+}
+
+// outputRe finds files a build script writes: `cmd > out.ts`, `-o out`, `--out-file out`, `--output=out`.
+var outputRe = regexp.MustCompile(`(?:>{1,2}|\s-o|--out(?:put)?(?:-?file|-?dir)?(?:=|\s))\s*["']?(\.{0,2}/?[\w@.\-/]+)`)
+
+// writtenByScript reports whether some package.json script or Makefile recipe
+// writes the path, so it exists after a build even though it is not committed.
+// The list is built once per repository (it lives on the shared index) and only
+// when a path would otherwise be reported, because reading every manifest in a
+// blobless clone fetches each one over the network.
+func (c *checker) writtenByScript(s string) bool {
+	if c.outputs == nil && c.ix.outputs != nil {
+		c.outputs = c.ix.outputs
+	}
+	if c.outputs == nil {
+		defer func() { c.ix.outputs = c.outputs }()
+		c.outputs = []string{}
+		for _, f := range c.ix.list {
+			b := path.Base(f)
+			var texts []string
+			switch {
+			case b == "package.json":
+				raw, err := c.r.Read(f)
+				if err != nil {
+					continue
+				}
+				var pj struct {
+					Scripts map[string]any `json:"scripts"`
+				}
+				_ = json.Unmarshal(raw, &pj)
+				for _, v := range pj.Scripts {
+					if str, ok := v.(string); ok {
+						texts = append(texts, str)
+					}
+				}
+			case b == "Makefile" || b == "makefile" || b == "GNUmakefile" || b == "justfile" || b == "Justfile":
+				raw, err := c.r.Read(f)
+				if err != nil {
+					continue
+				}
+				texts = append(texts, string(raw))
+			default:
+				continue
+			}
+			dir := path.Dir(f)
+			for _, t := range texts {
+				for _, m := range outputRe.FindAllStringSubmatch(t, -1) {
+					out := strings.TrimSuffix(m[1], "/")
+					if out == "" || out == "/dev/null" || strings.HasPrefix(out, "/") {
+						continue
+					}
+					c.outputs = append(c.outputs, path.Clean(out), path.Clean(path.Join(dir, out)))
+				}
+			}
+		}
+	}
+	p := path.Clean(strings.TrimPrefix(strings.TrimSuffix(s, "/"), "./"))
+	for _, o := range c.outputs {
+		if o == p || strings.HasSuffix(o, "/"+p) || strings.HasPrefix(o, p+"/") {
+			return true
+		}
+	}
+	return false
 }

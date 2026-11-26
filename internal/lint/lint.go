@@ -170,6 +170,7 @@ type checker struct {
 	allScripts map[string]string
 	allTargets map[string]bool
 	gitignore  []string
+	outputs    []string // files that package.json scripts or Makefiles write
 	submodules []string
 	deps       map[string]bool
 }

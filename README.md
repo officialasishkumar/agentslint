@@ -51,9 +51,9 @@ We took the 2,000 most-starred GitHub repositories pushed since 1 Aug 2026
 - **735 of 2,000 (37%)** have an `AGENTS.md` at the root; 806 have `AGENTS.md`
   or `CLAUDE.md`. Together they hold **4,564** instruction files (3,200
   `AGENTS.md`, 1,041 `CLAUDE.md`, 112 Cursor rules, 97 Copilot instruction files, 88 `GEMINI.md`).
-- **281 of 804 repositories (35%)** have at least one instruction that refers to
+- **280 of 804 repositories (35%)** have at least one instruction that refers to
   a path, script, make target or recipe that does not exist anywhere in the
-  repository; **833 files (18%)** have at least one such error.
+  repository; **832 files (18%)** have at least one such error.
 - **Size:** median 868 tokens; **517 files (11%) are over 4,000 tokens**; the
   largest is 72,526 tokens.
 - **62 repositories** tell agents to use a package manager other than the one
@@ -61,7 +61,7 @@ We took the 2,000 most-starred GitHub repositories pushed since 1 Aug 2026
 
 | rule | findings | repositories |
 |---|---:|---:|
-| missing-path | 1,569 | 268 |
+| missing-path | 1,568 | 267 |
 | too-long | 517 | 211 |
 | wrong-package-manager | 168 | 62 |
 | missing-script | 124 | 48 |
@@ -83,6 +83,18 @@ So about five in six flagged paths are real, and more than a quarter are
 instructions that were correct once and drifted as the code moved.
 
 
+## Fixing what it finds
+
+Findings from the census, checked by hand against the current code and git history and sent upstream as
+small documentation PRs (26 Nov 2026):
+
+- Significant-Gravitas/AutoGPT [#17440](https://github.com/Significant-Gravitas/AutoGPT/pull/17440): block-docs example moved to `docs/integrations/block-integrations/`
+- NousResearch/hermes-agent [#160343](https://github.com/NousResearch/hermes-agent/pull/160343): skill categories `skills/github/` and `skills/mlops/` no longer exist
+- langflow-ai/langflow [#16614](https://github.com/langflow-ai/langflow/pull/16614): components moved to `src/lfx/src/lfx/components/`
+
+One candidate, Supabase's `supabase/functions/common/database-types.ts`, turned out to be a file that a
+`pnpm` script generates; agentslint now accepts paths that build scripts write.
+
 ## It is deliberately conservative
 
 A linter that cries wolf gets turned off. agentslint only reports what it can
@@ -97,6 +109,9 @@ show is wrong:
 - A script, make target or just recipe is accepted if **any** manifest in the
   repository defines it: monorepo instructions often mean "run this in that
   package".
+- A path that a `package.json` script, Makefile or justfile writes (`> out.ts`,
+  `-o out`, `--outfile=out`) is accepted: it exists after a build even though
+  it is not committed.
 - Placeholders (`<name>`, `{id}`, `path/to/`, `YourService`, `X.Y`), gitignored
   paths, git submodules, paths outside the repository, per-user agent
   directories (`.claude/`, `.cursor/`, `.agents/`), and Makefiles with includes

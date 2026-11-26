@@ -136,6 +136,8 @@ type index struct {
 	set    map[string]bool
 	suffix map[string]bool // every trailing part of every path: a/b/c -> b/c, c
 	list   []string
+	// files written by package.json scripts and Makefiles, built on first need
+	outputs []string
 }
 
 func newIndex(r Repo) *index {

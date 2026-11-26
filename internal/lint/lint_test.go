@@ -142,3 +142,24 @@ func contains(xs []string, s string) bool {
 	}
 	return false
 }
+
+func TestPathsWrittenByScriptsAreNotErrors(t *testing.T) {
+	repo := memRepo{
+		"AGENTS.md": "Types are generated into `supabase/functions/common/database-types.ts`; the bundle is `dist/app.js`.\n" +
+			"Still stale: `src/old/thing.ts`.\n",
+		"package.json": `{"scripts":{"generate:types":"supabase gen types typescript --local > ./supabase/functions/common/database-types.ts","build":"esbuild src/index.ts --outfile=dist/app.js"}}`,
+		"src/index.ts": "",
+	}
+	docs := Lint(repo, Options{})
+	var errs []string
+	for _, d := range docs {
+		for _, f := range d.Findings {
+			if f.Severity == Error {
+				errs = append(errs, f.Text)
+			}
+		}
+	}
+	if len(errs) != 1 || errs[0] != "src/old/thing.ts" {
+		t.Fatalf("want only src/old/thing.ts flagged, got %v", errs)
+	}
+}
